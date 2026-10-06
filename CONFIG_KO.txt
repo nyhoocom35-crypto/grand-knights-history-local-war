@@ -1,0 +1,13 @@
+﻿설정 안내 — 1.0.0
+처음에는 기본 설정 그대로 사용하세요. 서버를 종료하고 JSON 숫자를 수정합니다.
+war_seconds: 전쟁 한 회 길이(초), 기본1800 = 30분.
+ai_tick_seconds: AI 전황 갱신 간격(초), 기본30.
+vote_window_seconds: 투표 시간 설정(초), 기본60.
+ai_voters_per_nation: 국가별 AI 투표자 수, 기본20.
+encounter_battle_slots: 적 배치 조회 횟수, 기본1.
+encounter_empty_slots: 빈 배치 조회 횟수, 기본2.
+적 밀도를 낮추려면 encounter_empty_slots를 조금 늘리세요.
+이는 적 조회 응답 순환이며 개별 지점의 HP 회복 시설을 추가하는 설정은 아닙니다.
+전황에 저장된 설정도 사용되므로 진행 중 전쟁에 시간 설정이 즉시 반영된다고 가정하지 마세요.
+기록 초기화를 위해 campaign_state.bin을 삭제하면 영토와 계약 기록도 사라집니다.
+contract_patch.json과 다른 map JSON 파일은 직접 편집하지 마세요.
